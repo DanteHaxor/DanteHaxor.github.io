@@ -319,10 +319,10 @@ section .button button:hover{
 }
  /* Tech Stack */
 
- .skills{
+ .skillss{
   background: #F0F8FF;
 }
-.skills .content{
+.skillss .content{
   padding: 40px 0;
 }
 
@@ -501,14 +501,14 @@ section .button button:hover{
 }
 
 /* Contact Me CSS */
-.contact{
+.contactt{
   background: #F0F8FF;
 }
-.contact .content{
+.contactt .content{
   margin: 0 auto;
   padding: 30px 0;
 }
-.contact .text{
+.contactt .text{
   width: 80%;
   text-align: center;
   margin: auto;
@@ -705,7 +705,7 @@ footer .text span a:hover{
   .home .text-three{
     font-size: 35px;
   }
-  .skills .skills-details{
+  .skillss .skills-details{
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -723,7 +723,7 @@ footer .text span a:hover{
     margin: 20px 0;
     width: 100%;
   }
-  .contact .text{
+  .contactt .text{
     width: 100%;
 }
 

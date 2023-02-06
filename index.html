@@ -14,21 +14,21 @@
   <body>
     <!-- Move to up button -->
     <div class="scroll-button">
-      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+      <a href="#homee"><i class="fas fa-arrow-up"></i></a>
     </div>
 
     <script src="https://kit.fontawesome.com/6f3f4b23f1.js" crossorigin="anonymous"></script>
     <!-- navgaition menu -->
     <nav>
-      <div class="navbar">
+      <div class="navbar" >
         <div class="logo"><a href="#">Abhay Singh</a></div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Projects</a></li>
-          <li><a href="https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view" target="_blank">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="menu" id="nav-menu">
+          <li class="nav-link" id="home"><a href="#homee">Home</a></li>
+          <li class="nav-link about section" id="about" ><a href="#aboutt">About</a></li>
+          <li class="nav-link skills" id="skills"><a href="#skillss">Skills</a></li>
+          <li class="nav-link projects" id="projects"><a href="#services">Projects</a></li>
+          <li id="resume-link-1" class="nav-link resume"><a href="https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view" target="_blank" id="resume-button-1">Resume</a></li>
+          <li class="nav-link contact" id="contact"><a href="#contactt">Contact</a></li>
 
           <div class="cancel-btn">
             <i class="fas fa-times"></i>
@@ -50,14 +50,14 @@
 
     <!-- Home Section Start -->
     <div id="first">
-      <section class="home" id="home">
+      <section class="home" id="homee">
         <div class="home-content">
           <div class="text">
             <div class="text-one">Hello 🤗,</div>
             <div class="container">
               <div class="row">
                 <div class="col-md-12 text-center">
-                  <h3 class="animate-charcter"> I'm Abhay Singh</h3>
+                  <h3 class="animate-charcter" id="user-detail-name"> I'm Abhay Singh</h3>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@
           </div>
          
         </div>
-        <div id="mypic">
+        <div id="mypic" class="home-img">
           <img src="./images/Professional Photo.jpeg" alt="">
         </div>
     </div>
@@ -74,7 +74,7 @@
     </section>
 
     <!-- About Section Start -->
-    <section class="about" id="about">
+    <section class="about" id="aboutt">
       <div class="content">
         <div class="title"><span>About Me</span></div>
         <div class="about-details">
@@ -83,7 +83,7 @@
           </div>
           <div class="right">
             <div class="topic">Coding Is My Passion</div>
-            <p>
+            <p id="user-detail-intro">
               Hello World! I'm Abhay Singh, a Full
                Stack Web Developer,I love combining the worlds of logic and creative
               design to make eye- catching, accessible, and user friendly
@@ -92,8 +92,8 @@
             </p>
             <br>
             <div class="button">
-              <button>
-                <a href="https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view" target="_blank">View Resume</a>
+              <button id="resume-link-2">
+                <a href="https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view" target="_blank" id="resume-button-2">View Resume</a>
               </button>
               
             </div>
@@ -104,7 +104,7 @@
 
     <!-- Tech Stack Start -->
 
-    <section class="skills" id="skills">
+    <section class="skillss" id="skillss">
         <div class="content">
           <div class="title"><span>Tech Stack</span></div>
           <div class="skills-details">
@@ -161,25 +161,25 @@
     
             <div class="container">
                 <div class="box41">
-        <div class="title"><span>My Skills</span></div>
+        <div class="title skills-card-img" ><span>My Skills</span></div>
                 </div>
-                <div class="skills-list">
-                    <div>
+                <div class="skills-list skills-card">
+                    <div class="skills-card-name">
                         <i class="fa-brands fa-node"></i>
                         <h2>Node.js Backend Development</h2>
                         <p>Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.</p>
                     </div>
-                    <div>
+                    <div class="skills-card-name">
                         <i class="fa-solid fa-code"></i>
                         <h2>Frontend Development</h2>
                         <p>Front-End Developer is responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages using HTML5 / CSS & JavaScript.</p>
                     </div>
-                    <div>
+                    <div class="skills-card-name">
                         <i class="fa-solid fa-cubes"></i>
                         <h2>Data Structure & Algorithms</h2>
                         <p>A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem.Learning data structures and algorithms allow us to write efficient and optimized computer programs.</p>
                     </div>
-                    <div>
+                    <div class="skills-card-name">
                         <i class="fa-solid fa-face-smile"></i>
                         <h2>Communication Effectiveness</h2>
                         <p>Effective communication is the process of exchanging ideas, thoughts, opinions, knowledge, and data so that the message is received and understood with clarity and purpose. When we communicate effectively, both the sender and receiver feel satisfied.</p>
@@ -228,12 +228,12 @@
         <section class="services" id="services">
           <div class="content">
              <div class="title"><span>My Github Contribution</span></div> 
-             <div class="calendar"></div>
+             <div class="calendar react-activity-calendar" ></div>
           </div>
           <p style="text-align: center;">
-            <img  src= "https://github-readme-stats.vercel.app/api?username=DanteHaxor&show_icons=true&theme=midnight-purple" /><br>
-            <img  src="https://github-readme-streak-stats.herokuapp.com/?user=DanteHaxor&theme=midnight-purple" /><br>
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanteHaxor&theme=midnight-purple" /><br>
+            <img id="github-stats-card" src= "https://github-readme-stats.vercel.app/api?username=DanteHaxor&show_icons=true&theme=midnight-purple" /><br>
+            <img id="github-streak-stats"  src="https://github-readme-streak-stats.herokuapp.com/?user=DanteHaxor&theme=midnight-purple" /><br>
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanteHaxor&theme=midnight-purple" /><br>
           </p>
         </section>
 
@@ -248,16 +248,16 @@
               <!-- <i class="fas fa-desktop"></i> -->
               <img class="imgs" src="./images/desktime.jpg" alt="" />
             </div>
-            <div class="topic">Desktime Clone</div>
+            <div class="topic project-title project-card">Desktime Clone</div>
             <p>
               A time tracker cloud based software website. 
-              <br>An Individual Project, executed in 5 days. 
-              <br>Tech Stack :- HTML | CSS | JavaScript 
+              <br class="project-description">An Individual Project, executed in 5 days. 
+              <br class="project-tech-stack">Tech Stack :- HTML | CSS | JavaScript 
             </p>
             <div class="media-icons" id="linkss">
-              <a href="https://github.com/DanteHaxor/little-drain-1877" target="_blank"
+              <a class="project-github-link" href="https://github.com/DanteHaxor/little-drain-1877" target="_blank"
                 > <i id="i" class="fab fa-github"></i></a>
-              <a href="https://timerhut.netlify.app/" target="_blank"
+              <a class="project-deployed-link" href="https://timerhut.netlify.app/" target="_blank"
                 ><button id="btns">Live <i class="fa-solid fa-arrow-turn-down-left"></i></button></i
               ></a>
             </div>
@@ -266,16 +266,16 @@
             <div class="icon">
               <img class="imgs" src="./images/jiomart.jpg" alt="" />
             </div>
-            <div class="topic">Jiomart Clone</div>
+            <div class="topic project-title project-card">Jiomart Clone</div>
             <p>
               An online store for grocery and all daily needs.
-             <br> A collaborative project built by a team of 4, executed in 5 days.
-             <br> Tech STack :- HTML | CSS | JavaScript 
+             <br class="project-description"> A collaborative project built by a team of 4, executed in 5 days.
+             <br class="project-tech-stack"> Tech STack :- HTML | CSS | JavaScript 
             </p>
             <div class="media-icons" id="linkss">
-              <a href="https://github.com/DanteHaxor/material-sleep-1381" target="_blank"
+              <a class="project-github-link" href="https://github.com/DanteHaxor/material-sleep-1381" target="_blank"
                 > <i id="i" class="fab fa-github"></i></a>
-              <a href="https://digital-bazaar.netlify.app/" target="_blank"
+              <a class="project-deployed-link" href="https://digital-bazaar.netlify.app/" target="_blank"
                 ><button id="btns">Live <i class="fa-solid fa-arrow-turn-down-left"></i></button></i
               ></a>
             </div>
@@ -285,16 +285,16 @@
             <div class="icon">
               <img class="imgs" src="./images/apple.jpg" alt="" />
             </div>
-            <div class="topic">Apple clone</div>
+            <div class="topic project-title project-card">Apple clone</div>
             <p>
               A full stack ecommerce store for electronics.
-              <br> An Individual Project, executed in 5 days.
-              <br> Tech-Stack :- HTML | CSS | JavaScript | Node.js | Express.js | MongoDB
+              <br class="project-description"> An Individual Project, executed in 5 days.
+              <br class="project-tech-stack"> Tech-Stack :- HTML | CSS | JavaScript | Node.js | Express.js | MongoDB
             </p>
             <div class="media-icons" id="linkss">
-              <a href="https://github.com/DanteHaxor/aromatic-desk-2443" target="_blank"
+              <a class="project-github-link" href="https://github.com/DanteHaxor/aromatic-desk-2443" target="_blank"
                 > <i id="i" class="fab fa-github"></i></a>
-              <a href="https://pear-z5ta.onrender.com/" target="_blank"
+              <a class="project-deployed-link" href="https://pear-z5ta.onrender.com/" target="_blank"
                 ><button id="btns">Live <i class="fa-solid fa-arrow-turn-down-left"></i></button></i
               ></a>
             </div>
@@ -305,16 +305,16 @@
 
 
     <!-- Contact Me section Start -->
-    <section class="contact" id="contact">
+    <section class="contactt" id="contactt">
       <div class="content">
         <div class="title"><span>Contact Me</span></div>
         <div class="text">
           <h3>Abhay Singh</h3>
-          <h3> 📧  <span>abhay.jhonsmith@gmail.com</span> </h3>
-          <h4>📞  +919169590658</h4><br>
+          <h3 id="contact-email"> 📧  <span>abhay.jhonsmith@gmail.com</span> </h3>
+          <h4 id="contact-phone">📞  +919169590658</h4><br>
           <div class="media-icons">
-            <a href="https://www.linkedin.com/in/abhay1337/" target="_blank" ><i id="i" class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/DanteHaxor" target="_blank"><i id="i" class="fab fa-github"></i></a>
+            <a id="contact-linkedin" href="https://www.linkedin.com/in/abhay1337/" target="_blank" ><i id="i" class="fab fa-linkedin"></i></a>
+            <a id="contact-github" href="https://github.com/DanteHaxor" target="_blank"><i id="i" class="fab fa-github"></i></a>
       </div>
       </div>
     </section>
