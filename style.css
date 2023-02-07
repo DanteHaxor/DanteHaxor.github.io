@@ -184,7 +184,7 @@ nav.sticky .menu-btn{
 }
 }
 
-.home{
+.homee{
   height: 100vh;
   width: 100%;
   display: flex;
@@ -195,7 +195,7 @@ nav.sticky .menu-btn{
   background-color: black;
   /* border: 1px solid red; */
 }
-.home .home-content{
+.homee .home-content{
   width: 60%;
   height: 100%;
   margin: auto;
@@ -203,25 +203,25 @@ nav.sticky .menu-btn{
   flex-direction: column;
   justify-content: center;
 }
-.home .text-one{
+.homee .text-one{
   font-size: 25px;
   color: white;
 }
-.home .text-two{
+.homee .text-two{
   color: #0E2431;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
 }
-.home .text-three{
+.homee .text-three{
   font-size: 40px;
   margin: 5px 0;
   color: #4070f4;
 }
-.home .button{
+.homee .button{
   margin: 14px 0;
 }
-.home .button button:hover{
+.homee .button button:hover{
   border-color: #4070f4;
   background-color: #fff;
   color: #4070f4;
@@ -580,7 +580,7 @@ footer .text span a:hover{
     margin: auto;
    }
    
-.home{
+.homee{
   height: 100vh;
   width: 100%;
   display: flex;
@@ -591,7 +591,7 @@ footer .text span a:hover{
   font-family: 'Ubuntu', sans-serif;
   background-color: black;
 }
-.home .text-three{
+.homee .text-three{
   font-size: 30px;
   margin: 5px 0;
   color: #4070f4;
@@ -699,10 +699,10 @@ footer .text span a:hover{
   .navbar .menu .cancel-btn{
     display: block;
   }
-  .home .text-two{
+  .homee .text-two{
     font-size: 65px;
   }
-  .home .text-three{
+  .homee .text-three{
     font-size: 35px;
   }
   .skillss .skills-details{
@@ -731,10 +731,10 @@ footer .text span a:hover{
 }
 
 @media (max-width: 500px){
-  .home .text-two{
+  .homee .text-two{
     font-size: 55px;
   }
-  .home .text-three{
+  .homee .text-three{
     font-size: 33px;
   }
   .skills-details .boxes .per{
