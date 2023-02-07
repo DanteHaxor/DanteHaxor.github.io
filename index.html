@@ -93,8 +93,8 @@
             </p>
             <br>
             <div class="button" id="resume-button-2">
-              <button id="resume-link-2" id="resume-button-2">
-                <a href="https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view" target="_blank" id="resume-button-2" download>View Resume</a>
+              <button id="resume-link-2">
+                <a href="https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view" target="_blank" download>View Resume</a>
               </button>
               
             </div>
@@ -350,7 +350,7 @@
 <!--//download portfolio script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script>
-$('#resume-link-1,#resume-link-2,#resume-button-1,#resume-button-2').on('click', function () {
+$('#resume-link-1,#resume-link-2').on('click', function () {
     $.ajax({
         url: './images/Abhay_Singh_Resume.pdf',
         method: 'GET',
