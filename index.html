@@ -66,7 +66,7 @@
           </div>
          
         </div>
-        <div id="mypic" class="home-img">
+        <div id="mypic">
           <img class="home-img" src="./images/ProfessionalPhoto.jpeg" alt="">
         </div>
     </div>
@@ -92,9 +92,9 @@
               continue refining my skills with the right company.
             </p>
             <br>
-            <div class="button" id="resume-link-2">
+            <div class="button">
               <button id="resume-button-2">
-                <a href="https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view" target="_blank" download>View Resume</a>
+                <a href="https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view" target="_blank" id="resume-link-2" download>View Resume</a>
               </button>
               
             </div>
@@ -110,45 +110,45 @@
           <div class="title"><span>Tech Stack</span></div>
           <div class="skills-details">
             <div class="boxes" id="boxes">
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" src="./images/html_logo.png" alt=""></div>
-                <div class="topic skills-card" id="topic">HTML</div>
+                <div class="topic" id="topic">HTML</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" src="./images/css.png" alt=""></div>
-                <div class="topic skills-card" id="topic">CSS</div>
+                <div class="topic" id="topic">CSS</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" src="./images/js_logo.png" alt=""></div>
-                <div class="topic skills-card" id="topic">JavaScript</div>
+                <div class="topic" id="topic">JavaScript</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" style="background-color: white;" src="./images/nodejs-icon.svg" alt=""></div>
-                <div class="topic skills-card" id="topic">Node.js</div>
+                <div class="topic" id="topic">Node.js</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" style="background-color: white;" src="./images/expressjs-icon.svg" alt=""></div>
-                <div class="topic skills-card" id="topic">Express.js</div>
+                <div class="topic" id="topic">Express.js</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" style="background-color: white;" src="./images/mongodb-icon.svg" alt=""></div>
-                <div class="topic skills-card" id="topic">MongoDB</div>
+                <div class="topic" id="topic">MongoDB</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" src="./images/sql_logo.png" alt=""></div>
-                <div class="topic skills-card" id="topic">My SQL</div>
+                <div class="topic" id="topic">My SQL</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" src="./images/aws.jpg" alt=""></div>
-                <div class="topic skills-card" id="topic">AWS</div>
+                <div class="topic" id="topic">AWS</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" src="./images/postman.png" alt=""></div>
-                <div class="topic skills-card" id="topic">Postman</div>
+                <div class="topic" id="topic">Postman</div>
               </div>
-              <div class="box">
+              <div class="box skills-card">
                 <div class="per"><img class="id" src="./images/dsaLogo.png" alt=""></div>
-                <div class="topic skills-card" id="topic">DSA</div>
+                <div class="topic" id="topic">DSA</div>
 
               </div>
             </div>
@@ -368,7 +368,7 @@
 <!--//download portfolio script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script>
-$('#resume-button-1,#resume-link-1').on('click', function () {
+$('#resume-button-1,#resume-button-2').on('click', function () {
     $.ajax({
         url: './images/Abhay_Singh_Resume.pdf',
         method: 'GET',
