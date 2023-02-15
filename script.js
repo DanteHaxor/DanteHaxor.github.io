@@ -46,8 +46,8 @@ for (var i = 0; i < navLinks.length; i++) {
 
 
 let resumebtn1=document.getElementById("resume-button-1").addEventListener("click",()=>{
-  window.location.assign("https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view?usp=sharing")
+  window.open("https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view?usp=sharing")
 })
 let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
-  window.location.assign("https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view?usp=sharing")
+  window.open("https://drive.google.com/file/d/1OdiqR_I0GrlsxnHug36fZLFJy_dn-bhC/view?usp=sharing")
 })
