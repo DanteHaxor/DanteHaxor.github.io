@@ -349,14 +349,14 @@
 </script>
 <script>
 
-    GitHubCalendar(".calendar", "DanteHaxor", { responsive: true });
-    GitHubCalendar(".calendar", "DanteHaxor", { global_stats:false});
+    // GitHubCalendar(".calendar", "DanteHaxor", { global_stats: false });
+    // GitHubCalendar(".calendar", "DanteHaxor", { responsive: true });
     // Use a proxy
     GitHubCalendar(".calendar", "DanteHaxor", {
         proxy(username) {
             return fetch(`https://your-proxy.com/github?user=${username}`)
         }
-    })
+    ,global_stats: false,responsive: true})
 
 
     
