@@ -28,7 +28,7 @@
           <li class="nav-link about"><a href="#about">About</a></li>
           <li class="nav-link skills"><a href="#skills">Skills</a></li>
           <li class="nav-link projects" id="projects"><a href="#services">Projects</a></li>
-          <li id="resume-button-1" class="nav-link resume"><a href="Abhay_Singh_Resume.pdf" target="_blank" id="resume-link-1" download="Abhay_Singh_Resume.pdf">Resume</a></li>
+          <li id="resume-button-1" class="nav-link resume"><a href="fw22_0025-Abhay_Singh_Resume.pdf" target="_blank" id="resume-link-1" download="fw22_0025-Abhay_Singh_Resume.pdf">Resume</a></li>
           <li class="nav-link contact" id="contact"><a href="#contacttt">Contact</a></li>
 
           <div class="cancel-btn">
@@ -90,7 +90,7 @@
             <br>
             <div class="button">
               <button id="resume-button-2">
-                <a href="Abhay_Singh_Resume.pdf" target="_blank" id="resume-link-2" download="Abhay_Singh_Resume.pdf">View Resume</a>
+                <a href="fw22_0025-Abhay_Singh_Resume.pdf" target="_blank" id="resume-link-2" download="fw22_0025-Abhay_Singh_Resume.pdf">View Resume</a>
               </button>
               
             </div>
@@ -364,7 +364,7 @@
 <script>
 $('#resume-button-1,#resume-button-2').on('click', function () {
     $.ajax({
-        url: './images/Abhay_Singh_Resume.pdf',
+        url: './images/fw22_0025-Abhay_Singh_Resume.pdf',
         method: 'GET',
         xhrFields: {
             responseType: 'blob'
@@ -373,7 +373,7 @@ $('#resume-button-1,#resume-button-2').on('click', function () {
             var a = document.createElement('a');
             var url = window.URL.createObjectURL(data);
             a.href = url;
-            a.download = 'Abhay_Singh_Resume.pdf';
+            a.download = 'fw22_0025-Abhay_Singh_Resume.pdf';
             document.body.append(a);
             a.click();
             a.remove();
