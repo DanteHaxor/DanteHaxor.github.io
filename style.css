@@ -460,7 +460,7 @@ section .button button:hover{
 .services .boxes .box{
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
-  height: 500px;
+  height: auto;
   text-align: center;
   border-radius: 12px;
   background-color: white;
