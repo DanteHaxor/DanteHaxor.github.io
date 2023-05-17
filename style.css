@@ -1,8 +1,8 @@
 /* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
@@ -782,6 +782,149 @@ footer .text span a:hover{
 .button-89:active {
   background: var(--color);
   color: #fff;
+}
+@media (max-width: 300px) {
+  /* *{
+    padding-right: 0%;
+  } */
+  .abcdtest{
+    display: none;
+  }
+  #avd{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .about .left img {
+    height: 150px;
+    width: 150px;
+  }
+  nav{
+    width: 100%;
+  }
+
+  nav .navbar {
+    width: 100%;
+  }
+  nav .navbar .logo a{
+  width: 100%;
+  font-size: 25px;
+}
+  nav .navbar .menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: #0E2431;
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+
+  .navbar.active .menu {
+    left: 0;
+  }
+
+  nav .navbar .menu a {
+    font-size: 20px;
+    display: block;
+    color: #fff;
+    margin: 10px 0;
+  }
+
+  nav.sticky .menu a:hover {
+    color: #4070f4;
+  }
+
+  nav .navbar .media-icons {
+    display: none;
+  }
+
+  nav .menu-btn,
+  .navbar .menu .cancel-btn {
+    display: block;
+  }
+
+  .homee .text-two {
+    font-size: 50px;
+  }
+
+  .homee .text-three {
+    font-size: 30px;
+  }
+
+  .skillss .skills-details {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .skills-details .text {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .skills-details .boxes {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .services .boxes .box {
+    margin: 15px 0;
+    width: 100%;
+  }
+
+  .contactt .text {
+    width: 100%;
+  }
+
+  .skills-details .boxes .per {
+    font-size: 45px;
+    color: #4070f4;
+  }
+
+  #first {
+    width: 100%;
+    background-color: black;
+  }
+  #mypic {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+  }
+
+  #mypic > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: hsla(212, 97%, 43%, 0.3) 0px 0px 0px 3px;
+    animation: morph 8s ease-in-out 1s infinite;
+  }
+  .contactt .text{
+    width: 100%;
+}
+#contact-email{
+  width: 100%;
+  font-size: 15px;
+}
+#homee{
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: none;
+  border-radius: 0;
+  transition: none;
+}
 }
 
 
