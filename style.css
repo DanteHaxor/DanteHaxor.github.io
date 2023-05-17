@@ -748,42 +748,13 @@ footer .text span a:hover{
 }
 
 
-/* CSS */
-.button-89 {
-  --b: 3px;   /* border thickness */
-  --s: .45em; /* size of the corner */
-  --color: #373B44;
-  
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  color: var(--color);
-  --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: .6em;
-  font-size: 16px;
-
-  border: 0;
-
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-89:hover,
-.button-89:focus-visible{
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
-}
-
-.button-89:active {
-  background: var(--color);
-  color: #fff;
-}
 @media (max-width: 300px) {
+
+  
+
+  .skills-list{
+    align-items: center;
+}
   /* *{
     padding-right: 0%;
   } */
@@ -926,5 +897,150 @@ footer .text span a:hover{
   transition: none;
 }
 }
+@media (max-width: 500px) {
+ 
+  .skills-list {
+    align-items: center;
+}
+  /* *{
+    padding-right: 0%;
+  } */
+  .abcdtest{
+    display: none;
+  }
+  #avd{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .about .left img {
+    height: 150px;
+    width: 150px;
+  }
+  nav{
+    width: 100%;
+  }
 
+  nav .navbar {
+    width: 100%;
+  }
+  nav .navbar .logo a{
+  width: 100%;
+  font-size: 25px;
+}
+  nav .navbar .menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: #0E2431;
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
 
+  .navbar.active .menu {
+    left: 0;
+  }
+
+  nav .navbar .menu a {
+    font-size: 20px;
+    display: block;
+    color: #fff;
+    margin: 10px 0;
+  }
+
+  nav.sticky .menu a:hover {
+    color: #4070f4;
+  }
+
+  nav .navbar .media-icons {
+    display: none;
+  }
+
+  nav .menu-btn,
+  .navbar .menu .cancel-btn {
+    display: block;
+  }
+
+  .homee .text-two {
+    font-size: 50px;
+  }
+
+  .homee .text-three {
+    font-size: 30px;
+  }
+
+  .skillss .skills-details {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .skills-details .text {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .skills-details .boxes {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .services .boxes .box {
+    margin: 15px 0;
+    width: 100%;
+  }
+
+  .contactt .text {
+    width: 100%;
+  }
+
+  .skills-details .boxes .per {
+    font-size: 45px;
+    color: #4070f4;
+  }
+
+  #first {
+    width: 100%;
+    background-color: black;
+  }
+  #mypic {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+  }
+
+  #mypic > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: hsla(212, 97%, 43%, 0.3) 0px 0px 0px 3px;
+    animation: morph 8s ease-in-out 1s infinite;
+  }
+  .contactt .text{
+    width: 100%;
+}
+#contact-email{
+  width: 100%;
+  font-size: 15px;
+}
+#homee{
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: none;
+  border-radius: 0;
+  transition: none;
+}
+}
